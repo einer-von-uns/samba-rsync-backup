@@ -8,6 +8,6 @@ if [ $? -eq 0 ]; then
     echo "Beute ist sicher auf der Rocky-VM!"
     logger "LADUNG: Erfolgreich! Beute ist sicher auf Rocky."
 else
-    echo "VERDAMMT! rsync ist fehlgeschlagen!"
+    echo "FEHLER! rsync ist fehlgeschlagen!"
     logger "LADUNG-BACKUP: rsync ist fehlgeschlagen!"
 fi
